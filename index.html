@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Solusi Ternak</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top top-0 shadow-sm">
+      <div class="container-fluid mx-lg-5 mx-0 my-lg-4 my-2">
+        <a class="navbar-brand" href="#"
+          ><img src="Asset/images/navbar/logoSate.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-start w-75"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a class="navbar-brand" href="#"
+              ><img src="Asset/images/navbar/logoSate.svg" alt=""
+            /></a>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-start align-items-lg-center flex-grow-1 pe-3 gap-lg-4"
+            >
+              <li class="nav-item dropdown" id="nav-produk">
+                <a
+                  id="link"
+                  class="nav-link dropdown-toggle fw-medium ms-lg-4"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Produk
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a id="link" class="nav-link fw-medium" href="#"
+                  >Kalkulator ROI</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="link" class="nav-link fw-medium" href="">AI Chat</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  id="link"
+                  class="nav-link dropdown-toggle fw-medium"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Kontak
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div
+              class="gap-lg-3 gap-2 d-flex flex-lg-row flex-column"
+              id="button-log-res"
+            >
+              <form action="" class="mt-1 mt-lg-0">
+                <button class="btn login border-3 fw-medium rounded-3">
+                  Masuk
+                </button>
+              </form>
+              <form action="">
+                <button class="btn register border-3 fw-medium rounded-3">
+                  Daftar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HIRO -->
+    <div class="image-bg">
+      <div class="container hiro1">
+        <div class="row">
+          <div class="col-lg-6 col-12 order-lg-1 order-2">
+            <div class="text-center text-lg-start">
+              <h1 class="fw-bold text-lg-start text-center mt-lg-0 mt-5">
+                Solusi Ternak ID
+              </h1>
+              <p class="fs-5 lh-sm mt-3 text-center text-lg-start">
+                Sistem peternakan terintegrasi berbasis
+                <br class="d-block d-lg-none" />
+                teknologi
+                <br class="d-none d-lg-block" />
+                <strong>artificial Intelligence</strong> untuk
+                <br class="d-block d-lg-none" />
+                solusi menyeluruh usaha <br class="d-none d-lg-block" />
+                ternak anda.<br class="d-block d-lg-none" />
+                Meliputi sistem manajemen lahan,<br class="d-block d-lg-none" />
+                sistem
+                <br class="d-none d-lg-block" />
+                manajemen kandang, sistem<br class="d-block d-lg-none" />
+                penggemukan ternak,
+                <br class="d-none d-lg-block" />
+                sistem<br class="d-block d-lg-none" />
+                pembibitan ternak, hingga sistem<br class="d-block d-lg-none" />
+                pemasaran
+                <br class="d-none d-lg-block" />
+                ternak.
+              </p>
+              <form action="">
+                <button class="mt-lg-5 mt-3 rounded-3 fw-semibold">
+                  Selengkapnya
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 10"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.6667 5L6.66666 9M10.6667 5L6.66666 1M10.6667 5L1.33332 5"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-12 order-lg-2 order-1 d-flex justify-content-center"
+          >
+            <img src="Asset/images/hiro/hiro1.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FITUR -->
+    <div class="container fitur">
+      <div class="row">
+        <div class="text-center">
+          <h1><strong>Fitur</strong> Unggulan</h1>
+          <p class="opacity-50 mt-3">
+            Berikut merupakan fitur unggulan yang
+            <br class="d-block d-lg-none" />
+            akan anda dapatkan jika <br class="d-none d-lg-block" />
+            menggunakan<br class="d-block d-lg-none" />
+            Solusi Ternak sebagai mitra anda.
+          </p>
+          <img src="Asset/images/hiro/fiturline.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- MANAJEMEN PENANAMAN-->
+    <div class="container manajemen mt-5">
+      <div class="row">
+        <div class="col-lg-7 col-12 my-5">
+          <div class="text-center">
+            <img src="Asset/images/hiro/manajemen.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">
+            Manajemen Penanaman Pakan <br />
+            dan Kebutuhan Ternak
+          </h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Tingkatkan produktivitas ternak Anda <br />
+            dengan pengelolaan yang cerdas dari <br />
+            penanaman pakan dan pemenuhan <br />
+            kebutuhan nutrisi yang tepat.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- MANAJEMEN PEMBIBITAN -->
+    <div class="container mt-5 manajemen-pembibitan">
+      <div class="row">
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start order-lg-1 order-2"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">
+            Manajemen Pembibitan dan <br />
+            Penggemukkan Ternak
+          </h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Persiapkan bibit ternak terbaik dan <br />
+            optimalkan proses penggemukkan untuk <br />
+            hasil ternak yang sehat dan berkualitas <br />
+            tinggi.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3 bg-white">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+        <div class="col-lg-7 col-12 my-5 order-lg-2 order-1">
+          <div class="text-center">
+            <img src="Asset/images/hiro/manajemen-pembibitan.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MANAJEMEN KANDANG -->
+    <div class="container manajemen mt-5">
+      <div class="row">
+        <div class="col-lg-7 col-12 my-5">
+          <div class="text-center">
+            <img src="Asset/images/hiro/manajemen-kandang.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">
+            Manajemen Kandang dan <br />
+            Perawatan Ternak
+          </h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Pantau kondisi kandang dan perawatan <br />
+            ternak secara efisien untuk menciptakan <br />
+            lingkungan yang nyaman dan sehat bagi <br />
+            ternak Anda.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- MANAJEMEN HASIL TERNAK -->
+    <div class="container mt-5 manajemen-pembibitan">
+      <div class="row">
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start order-lg-1 order-2"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">
+            Manajemen Pengelolaan <br />
+            Hasil Ternak
+          </h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Pelajari bagaimana mengelola dan <br />
+            memanfaatkan hasil ternak dengan <br />
+            cerdas untuk mendapatkan hasil optimal <br />
+            dalam bisnis ternak Anda.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3 bg-white">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+        <div class="col-lg-7 col-12 my-5 order-lg-2 order-1">
+          <div class="text-center">
+            <img src="Asset/images/hiro/manajemen-hasil-ternak.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORUM SOSIAL -->
+    <div class="container manajemen mt-5">
+      <div class="row">
+        <div class="col-lg-7 col-12 my-5">
+          <div class="text-center">
+            <img src="Asset/images/hiro/forum.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">
+            Forum Sosial dan <br />
+            Penjualan Ternak
+          </h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Bergabunglah dengan komunitas <br />
+            peternak dan jual beli ternak Anda <br />
+            dengan mudah melalui platform <br />
+            forum sosial kami.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- INTERGRASI IOT -->
+    <div class="container mt-5 manajemen-pembibitan">
+      <div class="row">
+        <div
+          class="col-lg-5 col-12 text-start text-md-center text-lg-start order-lg-1 order-2"
+          id="manajemen-content"
+        >
+          <h3 class="fw-lg-base fw-semibold">Integrasi IoT</h3>
+          <img src="Asset/images/hiro/line.svg" alt="" />
+          <p class="mt-3 lh-sm">
+            Menghadirkan teknologi masa depan ke <br />
+            peternakan Anda dengan integrasi <br />
+            Internet of Things (IoT) untuk <br />
+            pengelolaan ternak yang lebih pintar.
+          </p>
+          <form action="">
+            <button class="mt-3 mb-lg-0 mb-5 fw-semibold rounded-3 bg-white">
+              Selengkapnya <img src="Asset/images/hiro/btn-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+        <div class="col-lg-7 col-12 my-5 order-lg-2 order-1">
+          <div class="text-center">
+            <img src="Asset/images/hiro/Iot.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TUJUAN INOVASI -->
+    <div class="container inovasi">
+      <div class="row">
+        <div class="text-center mt-5">
+          <p class="text-uppercase fw-medium" id="tujuan">TUJUAN INOVASI</p>
+          <h2>
+            Solusi dan Manfaat Layanan
+            <strong
+              >Sistem <br class="d-lg-block d-none" />
+              Peternakan</strong
+            >
+            Berbasis
+            <strong>Teknologi AI</strong>
+          </h2>
+          <img src="Asset/images/hiro/fiturline.svg" alt="" class="mt-3" />
+        </div>
+        <div class="col-lg-4 col-12 mt-5 mx-lg-0 ps-4">
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4"
+          >
+            <img src="Asset/images/tujuan/tujuan1.svg" alt="" class="ms-lg-3" />
+            <p class="fw-medium mt-3 lh-sm">
+              Melayani <strong>lebih baik</strong>, bekerja <br />
+              <strong>lebih cepat</strong> dan mudah
+            </p>
+          </div>
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4 mt-lg-4 mt-2"
+          >
+            <img src="Asset/images/tujuan/tujuan2.svg" alt="" />
+            <p class="fw-medium mt-3 lh-sm">
+              Operasional layanan
+              <strong
+                >lebih <br />
+                hemat</strong
+              >
+              dan dapat
+              <strong
+                >bekerja <br />
+                diluar kantor</strong
+              >
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 mt-lg-5 mt-2 ps-lg-0 ps-4">
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4"
+          >
+            <img src="Asset/images/tujuan/tujuan3.svg" alt="" />
+            <p class="fw-medium mt-3 lh-sm">
+              Kinerja <strong>lebih terukur</strong> untuk <br />
+              meningkatkan
+              <strong>produktivitas</strong>
+            </p>
+          </div>
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4 mt-lg-4 mt-2"
+          >
+            <img src="Asset/images/tujuan/tujuan4.svg" alt="" class="ms-lg-3" />
+            <p class="fw-medium mt-3 lh-sm">
+              Manajemen semua
+              <strong>lebih cepat <br /></strong>
+              dengan teknologi
+              <strong> Smartfarm</strong>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 mt-lg-5 mt-2 ps-lg-0 ps-4">
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4"
+          >
+            <img src="Asset/images/tujuan/tujuan5.svg" alt="" class="ms-lg-2" />
+            <p class="fw-medium mt-3">
+              Sistem <strong>artificial Intelligence <br /></strong>yang akan
+              membantu anda
+            </p>
+          </div>
+          <div
+            class="d-flex justify-content-lg-center justify-content-start align-items-center gap-4 mt-lg-4 mt-2"
+          >
+            <img src="Asset/images/tujuan/tujuan6.svg" alt="" />
+            <p class="fw-medium mt-3 lh-sm">
+              <strong>Optimalkan</strong>
+              usahamu, raih <br />
+              keuntungan
+              <strong>lebih tinggi</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 FUNGSI -->
+    <div class="container-fluid fungsi">
+      <div class="">
+        <div class="d-flex justify-content-center gap-lg-5">
+          <button class="btn btn-active">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M6 14H14V12H6V14ZM6 11H18V9H6V11ZM6 8H18V6H6V8ZM2 22V4C2 3.45 2.196 2.979 2.588 2.587C2.98 2.195 3.45067 1.99934 4 2H20C20.55 2 21.021 2.196 21.413 2.588C21.805 2.98 22.0007 3.45067 22 4V16C22 16.55 21.804 17.021 21.412 17.413C21.02 17.805 20.5493 18.0007 20 18H6L2 22ZM5.15 16H20V4H4V17.125L5.15 16Z"
+                fill="#5D6745"
+              />
+            </svg>
+            Chat Dengan AI
+          </button>
+          <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M18.75 1.875H5.25C4.75272 1.875 4.27581 2.07254 3.92417 2.42417C3.57254 2.77581 3.375 3.25272 3.375 3.75V20.25C3.375 20.7473 3.57254 21.2242 3.92417 21.5758C4.27581 21.9275 4.75272 22.125 5.25 22.125H18.75C19.2473 22.125 19.7242 21.9275 20.0758 21.5758C20.4275 21.2242 20.625 20.7473 20.625 20.25V3.75C20.625 3.25272 20.4275 2.77581 20.0758 2.42417C19.7242 2.07254 19.2473 1.875 18.75 1.875ZM18.375 19.875H5.625V4.125H18.375V19.875ZM7.5 7.125C7.5 6.82663 7.61853 6.54048 7.8295 6.3295C8.04048 6.11853 8.32663 6 8.625 6H15.375C15.6734 6 15.9595 6.11853 16.1705 6.3295C16.3815 6.54048 16.5 6.82663 16.5 7.125C16.5 7.42337 16.3815 7.70952 16.1705 7.9205C15.9595 8.13147 15.6734 8.25 15.375 8.25H8.625C8.32663 8.25 8.04048 8.13147 7.8295 7.9205C7.61853 7.70952 7.5 7.42337 7.5 7.125ZM11.25 12C11.25 12.2967 11.162 12.5867 10.9972 12.8334C10.8324 13.08 10.5981 13.2723 10.324 13.3858C10.0499 13.4994 9.74834 13.5291 9.45736 13.4712C9.16639 13.4133 8.89912 13.2704 8.68934 13.0607C8.47956 12.8509 8.3367 12.5836 8.27882 12.2926C8.22094 12.0017 8.25065 11.7001 8.36418 11.426C8.47771 11.1519 8.66997 10.9176 8.91665 10.7528C9.16332 10.588 9.45333 10.5 9.75 10.5C10.1478 10.5 10.5294 10.658 10.8107 10.9393C11.092 11.2206 11.25 11.6022 11.25 12ZM15.75 12C15.75 12.2967 15.662 12.5867 15.4972 12.8334C15.3324 13.08 15.0981 13.2723 14.824 13.3858C14.5499 13.4994 14.2483 13.5291 13.9574 13.4712C13.6664 13.4133 13.3991 13.2704 13.1893 13.0607C12.9796 12.8509 12.8367 12.5836 12.7788 12.2926C12.7209 12.0017 12.7506 11.7001 12.8642 11.426C12.9777 11.1519 13.17 10.9176 13.4166 10.7528C13.6633 10.588 13.9533 10.5 14.25 10.5C14.6478 10.5 15.0294 10.658 15.3107 10.9393C15.592 11.2206 15.75 11.6022 15.75 12ZM11.25 16.5C11.25 16.7967 11.162 17.0867 10.9972 17.3334C10.8324 17.58 10.5981 17.7723 10.324 17.8858C10.0499 17.9994 9.74834 18.0291 9.45736 17.9712C9.16639 17.9133 8.89912 17.7704 8.68934 17.5607C8.47956 17.3509 8.3367 17.0836 8.27882 16.7926C8.22094 16.5017 8.25065 16.2001 8.36418 15.926C8.47771 15.6519 8.66997 15.4176 8.91665 15.2528C9.16332 15.088 9.45333 15 9.75 15C10.1478 15 10.5294 15.158 10.8107 15.4393C11.092 15.7206 11.25 16.1022 11.25 16.5ZM15.75 16.5C15.75 16.7967 15.662 17.0867 15.4972 17.3334C15.3324 17.58 15.0981 17.7723 14.824 17.8858C14.5499 17.9994 14.2483 18.0291 13.9574 17.9712C13.6664 17.9133 13.3991 17.7704 13.1893 17.5607C12.9796 17.3509 12.8367 17.0836 12.7788 16.7926C12.7209 16.5017 12.7506 16.2001 12.8642 15.926C12.9777 15.6519 13.17 15.4176 13.4166 15.2528C13.6633 15.088 13.9533 15 14.25 15C14.6478 15 15.0294 15.158 15.3107 15.4393C15.592 15.7206 15.75 16.1022 15.75 16.5Z"
+                fill="#B3B3B3"
+              />
+            </svg>
+            Kalkulator ROI
+          </button>
+          <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M3.833 4H8.323L9.77 7.618L7.445 9.168C7.30808 9.25935 7.19583 9.38308 7.1182 9.52822C7.04057 9.67335 6.99997 9.83541 7 10C7.003 10.094 7 10.001 7 10.001V10.022C7.00059 10.0667 7.00259 10.1114 7.006 10.156C7.012 10.238 7.022 10.349 7.041 10.486C7.08 10.756 7.155 11.128 7.301 11.566C7.595 12.446 8.171 13.585 9.293 14.707C10.415 15.829 11.554 16.405 12.433 16.699C12.872 16.845 13.243 16.919 13.515 16.959C13.6685 16.9804 13.8231 16.9938 13.978 16.999L13.991 17H13.999C13.999 17 14.111 16.994 14 17C14.1857 16.9999 14.3676 16.9481 14.5255 16.8504C14.6834 16.7528 14.811 16.6131 14.894 16.447L15.564 15.107L20 15.847V20.167C17.889 20.472 12.187 20.773 7.707 16.293C3.227 11.813 3.527 6.11 3.833 4ZM9.073 10.486L10.88 9.282C11.2617 9.02737 11.5443 8.64922 11.6803 8.21096C11.8163 7.77271 11.7975 7.30102 11.627 6.875L10.18 3.257C10.0315 2.88591 9.77523 2.56781 9.44424 2.34376C9.11324 2.11971 8.7227 1.99997 8.323 2H3.781C2.872 2 2.017 2.631 1.868 3.617C1.528 5.859 1.067 12.481 6.293 17.707C11.519 22.933 18.141 22.471 20.383 22.132C21.369 21.982 22 21.128 22 20.219V15.847C22.0001 15.3736 21.8322 14.9155 21.5262 14.5542C21.2202 14.1929 20.796 13.9519 20.329 13.874L15.893 13.135C15.4711 13.0646 15.0377 13.1313 14.6565 13.3253C14.2753 13.5193 13.9663 13.8304 13.775 14.213L13.429 14.906C13.3066 14.8759 13.1855 14.8408 13.066 14.801C12.446 14.595 11.585 14.171 10.707 13.293C9.829 12.415 9.405 11.554 9.199 10.933C9.14981 10.7862 9.10809 10.637 9.074 10.486H9.073Z"
+                fill="#B3B3B3"
+              />
+            </svg>
+            Our Contact
+          </button>
+        </div>
+        <div class="chatai-container row mt-4">
+          <div class="col-lg-7 col-12" id="chatai">
+            <div class="text-center">
+              <img
+                src="Asset/images/hiro/chatai.svg"
+                alt=""
+                class="w-100 mb-5"
+              />
+            </div>
+          </div>
+          <div class="col-lg-5 col-12 mt-lg-5 mt-0 ps-lg-0 ps-3">
+            <p class="text-uppercase fw-semibold" id="fiturparagraf">
+              Fitur interaksi ai chat
+            </p>
+            <h2>
+              Nikmati Pengalaman <br />
+              <strong>Berinteraksi</strong> Dengan AI dan <br />
+              Data Anda Secara <strong>Realtime!</strong>
+            </h2>
+            <img src="Asset/images/hiro/line2.svg" alt="" class="mt-lg-3" />
+            <p class="mt-3">
+              Tanyakan tentang berbagai aspek manajemen ternak/
+              <br class="d-lg-block d-none" />lahan/penanaman, dan AI kami akan
+              memberikan <br class="d-lg-block d-none" />
+              jawaban cepat dan akurat dari berbagai sumber data.
+            </p>
+            <form action="">
+              <button class="mt-lg-5 mt-3 rounded-3 fw-semibold mb-5">
+                Coba Sekarang
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 10"
+                  fill="none"
+                >
+                  <path
+                    d="M10.6667 5L6.66666 9M10.6667 5L6.66666 1M10.6667 5L1.33332 5"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- KENAPA HARUS KAMI -->
+    <!-- <div class="container-fluid image-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div> -->
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
