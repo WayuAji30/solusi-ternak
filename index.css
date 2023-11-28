@@ -41,7 +41,6 @@ body {
 
 .image-bg {
   background-image: url(Asset/images/hiro/domba-domba.svg);
-  background-repeat: no-repeat;
 }
 
 .hiro1 {
@@ -52,6 +51,7 @@ body {
   background-color: var(--hijauTua);
   color: white;
   padding: 10px 55px;
+  border: none;
 }
 
 .col-lg-6 img {
@@ -102,9 +102,6 @@ body {
   margin-top: 100px;
 }
 
-.fungsi .btn-active {
-}
-
 .chatai-container {
   background-color: var(--coklat-muda);
 }
@@ -122,6 +119,23 @@ body {
   background-color: var(--hijauTua);
   color: white;
   padding: 10px 55px;
+  border: none;
+}
+
+.bg-image {
+  background-image: url(Asset/images/hiro/domba-domba.svg);
+}
+
+#alasan {
+  padding-left: 100px;
+}
+
+#img-alasan img {
+  margin-top: 100px;
+}
+
+#ceklis p {
+  color: #787878;
 }
 
 @media (max-width: 991px) {
@@ -135,13 +149,16 @@ body {
     border-color: white;
     color: black;
     padding: 0px;
+    border: none;
+    background-color: transparent;
   }
 
   #button-log-res .register {
-    border-color: white;
+    border: none;
     color: black;
     background-color: white;
     padding: 0px;
+    background-color: transparent;
   }
 
   .hiro1 {
@@ -177,5 +194,18 @@ body {
   .manajemen-pembibitan .text-center img {
     margin-top: 0;
     width: 100%;
+  }
+
+  #alasan {
+    padding-left: 0px;
+  }
+
+  #imgline {
+    width: 30%;
+    margin-top: 16px;
+  }
+
+  #ceklis img {
+    width: 10%;
   }
 }
