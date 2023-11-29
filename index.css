@@ -122,10 +122,6 @@ body {
   border: none;
 }
 
-.bg-image {
-  background-image: url(Asset/images/hiro/domba-domba.svg);
-}
-
 #kami {
   box-shadow: 0px 6px 5px 5px rgb(219, 219, 219);
 }
@@ -164,7 +160,11 @@ body {
 }
 
 #mitrakami {
-  margin-top: 100px;
+  margin-top: 150px;
+}
+
+.kami .bg-image img {
+  margin-top: 250px;
 }
 
 @media (max-width: 991px) {
