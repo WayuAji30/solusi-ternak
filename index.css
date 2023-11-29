@@ -126,6 +126,10 @@ body {
   background-image: url(Asset/images/hiro/domba-domba.svg);
 }
 
+#kami {
+  box-shadow: 0px 6px 5px 5px rgb(219, 219, 219);
+}
+
 #alasan {
   padding-left: 100px;
 }
@@ -136,6 +140,31 @@ body {
 
 #ceklis p {
   color: #787878;
+}
+
+#mitra {
+  color: var(--coklat);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #5d6745 !important;
+}
+
+#copyright {
+  background-color: var(--hijauMuda);
+  border-radius: 15px 15px 0px 0px;
+}
+
+#linefooter {
+  margin-top: 100px;
+}
+
+.kami {
+  margin-top: 100px;
+}
+
+#mitrakami {
+  margin-top: 100px;
 }
 
 @media (max-width: 991px) {
@@ -177,6 +206,10 @@ body {
     width: 90%;
   }
 
+  .chatai-container button {
+    width: 90%;
+  }
+
   .manajemen .text-center img {
     margin-top: 0;
     width: 100%;
@@ -207,5 +240,42 @@ body {
 
   #ceklis img {
     width: 10%;
+  }
+
+  .swiper img {
+    width: 100%;
+  }
+
+  #kami {
+    box-shadow: none;
+  }
+
+  #fiturparagraf {
+    font-size: 20px;
+  }
+
+  #kami h2 {
+    font-size: 35px;
+  }
+
+  #paragraffitur {
+    font-size: 20px;
+    opacity: 50%;
+  }
+
+  .chatai-container h2 {
+    font-size: 35px;
+  }
+
+  #linefooter {
+    margin-top: 50px;
+  }
+
+  .kami {
+    margin-top: 50px;
+  }
+
+  #mitrakami {
+    margin-top: 50px;
   }
 }
