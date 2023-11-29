@@ -168,6 +168,25 @@ body {
   display: none;
 }
 
+.form-1 {
+  margin-top: 180px;
+}
+
+.form-kontak input {
+  width: 82%;
+}
+
+.form-kontak textarea {
+  width: 82%;
+}
+
+.form-kontak button {
+  background-color: var(--hijauMuda);
+  color: white;
+  padding: 10px 50px;
+  border: none;
+}
+
 @media (max-width: 991px) {
   #link {
     color: black;
@@ -278,5 +297,10 @@ body {
 
   #mitrakami {
     margin-top: 50px;
+  }
+
+  /* KONTAK */
+  .form-1 {
+    margin-top: 120px;
   }
 }
