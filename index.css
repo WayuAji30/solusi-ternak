@@ -106,10 +106,6 @@ body {
   background-color: var(--coklat-muda);
 }
 
-#chatai {
-  margin-top: 80px;
-}
-
 #fiturparagraf {
   color: var(--hijauMuda);
   margin-top: 50px;
@@ -165,6 +161,11 @@ body {
 
 .kami .bg-image img {
   margin-top: 250px;
+}
+
+#kalkulator,
+#ourContact {
+  display: none;
 }
 
 @media (max-width: 991px) {
