@@ -196,6 +196,59 @@ body {
   background-color: #5d6745;
 }
 
+/* FITUR PAGE */
+.page-fitur {
+  margin-top: 160px;
+}
+
+.line-scroll {
+  background: #f0f0f0;
+  margin-top: 15px;
+  width: 4px;
+  margin-left: 10px;
+}
+
+.tentang-fitur {
+  width: 60%;
+}
+
+.kelebihan {
+  width: 40%;
+}
+
+.kelebihan h3 {
+  color: var(--hijauMuda);
+}
+
+.tentang-fitur h3 {
+  color: var(--hijauMuda);
+}
+
+.tentang-fitur button {
+  background-color: var(--hijauTua);
+  color: white;
+  padding: 10px 55px;
+  border: none;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 160px; /* Adjust the value as needed based on your layout */
+}
+
+#manajemen-penanaman,
+#manajemen-kandang,
+#manajemen-pengelolaan,
+#manajemen-forum-sosial,
+#manajemen-integrasi-iot {
+  display: none;
+}
+
+.col-lg-9 .card .card-img-overlay .card-title {
+  margin-top: 100px;
+}
+
 @media (max-width: 991px) {
   #link {
     color: black;
@@ -344,5 +397,35 @@ body {
 
   .form-kontak textarea {
     width: 300px;
+  }
+
+  /* FITUR PAGE */
+  .page-fitur {
+    margin-top: 100px;
+  }
+
+  .col-lg-9 .card img {
+    width: 100%;
+  }
+
+  .tentang-fitur {
+    width: 100%;
+  }
+
+  .kelebihan {
+    width: 100%;
+  }
+
+  .kelebihan h3 {
+    font-size: 30px;
+  }
+
+  .col-lg-9 .card .card-img-overlay .card-title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .tentang-fitur button {
+    width: 330px;
   }
 }
