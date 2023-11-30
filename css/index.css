@@ -187,6 +187,11 @@ body {
   border: none;
 }
 
+.scrollable-buttons {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 @media (max-width: 991px) {
   #link {
     color: black;
@@ -297,6 +302,10 @@ body {
 
   #mitrakami {
     margin-top: 50px;
+  }
+
+  .scrollable-buttons {
+    overflow-x: scroll;
   }
 
   /* KONTAK */
