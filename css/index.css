@@ -192,6 +192,10 @@ body {
   white-space: nowrap;
 }
 
+.active-button {
+  background-color: #5d6745;
+}
+
 @media (max-width: 991px) {
   #link {
     color: black;
