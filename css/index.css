@@ -173,11 +173,11 @@ body {
 }
 
 .form-kontak input {
-  width: 82%;
+  width: 520px;
 }
 
 .form-kontak textarea {
-  width: 82%;
+  width: 520px;
 }
 
 .form-kontak button {
@@ -320,5 +320,29 @@ body {
   /* KONTAK */
   .form-1 {
     margin-top: 120px;
+  }
+
+  .form-1 img {
+    width: 25%;
+  }
+
+  .form-1 p img {
+    width: 12%;
+  }
+
+  .form-1 h1 {
+    font-size: 35px;
+  }
+
+  #btn-kirim-pesan {
+    width: 300px;
+  }
+
+  .form-kontak input {
+    width: 300px;
+  }
+
+  .form-kontak textarea {
+    width: 300px;
   }
 }
