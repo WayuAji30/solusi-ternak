@@ -237,7 +237,7 @@ body {
   top: 160px; /* Adjust the value as needed based on your layout */
 }
 
-#manajemen-pembibitan,
+#manajemen-penanaman,
 #manajemen-kandang,
 #manajemen-pengelolaan,
 #manajemen-forum-sosial,
@@ -446,7 +446,7 @@ body {
     height: 60px;
   }
 
-  #mobile-manajemen-pembibitan,
+  #mobile-manajemen-penanaman,
   #mobile-manajemen-kandang,
   #mobile-manajemen-pengelolaan,
   #mobile-manajemen-forum-sosial,

@@ -47,63 +47,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const currentId = paragraphs[currentParagraphIndex];
 
+    // Define a function to set onclick attributes
+    const setOnClickAttributes = (prevId, nextId) => {
+      prevButton.setAttribute("onclick", `showContent('${prevId}')`);
+      nextButton.setAttribute("onclick", `showContent('${nextId}')`);
+    };
+
     switch (currentId) {
       case "mobile-manajemen-penanaman":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-integrasi-iot')"
-        );
-        nextButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-pembibitan')"
-        );
+        setOnClickAttributes("manajemen-integrasi-iot", "manajemen-pembibitan");
         break;
       case "mobile-manajemen-pembibitan":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-penanaman')"
-        );
-        nextButton.setAttribute("onclick", "showContent('manajemen-kandang')");
+        setOnClickAttributes("manajemen-penanaman", "manajemen-kandang");
         break;
       case "mobile-manajemen-kandang":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-pembibitan')"
-        );
-        nextButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-pengelolaan')"
-        );
+        setOnClickAttributes("manajemen-pembibitan", "manajemen-pengelolaan");
         break;
       case "mobile-manajemen-pengelolaan":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-pembibitan')"
-        );
-        nextButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-forum-sosial')"
-        );
+        setOnClickAttributes("manajemen-pembibitan", "manajemen-forum-sosial");
         break;
       case "mobile-manajemen-forum-sosial":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-pengelolaan')"
-        );
-        nextButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-integrasi-iot')"
+        setOnClickAttributes(
+          "manajemen-pengelolaan",
+          "manajemen-integrasi-iot"
         );
         break;
       case "mobile-manajemen-integrasi-iot":
-        prevButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-forum-sosial')"
-        );
-        nextButton.setAttribute(
-          "onclick",
-          "showContent('manajemen-penanaman')"
-        );
+        setOnClickAttributes("manajemen-forum-sosial", "manajemen-penanaman");
         break;
       default:
         break;
