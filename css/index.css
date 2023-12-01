@@ -237,7 +237,7 @@ body {
   top: 160px; /* Adjust the value as needed based on your layout */
 }
 
-#manajemen-penanaman,
+#manajemen-pembibitan,
 #manajemen-kandang,
 #manajemen-pengelolaan,
 #manajemen-forum-sosial,
@@ -247,6 +247,11 @@ body {
 
 .col-lg-9 .card .card-img-overlay .card-title {
   margin-top: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black !important; /* Warna panah di dalam tombol */
 }
 
 @media (max-width: 991px) {
@@ -427,5 +432,18 @@ body {
 
   .tentang-fitur button {
     width: 330px;
+  }
+
+  #pagination-mobile {
+    width: 100%;
+    height: 60px;
+  }
+
+  #mobile-manajemen-pembibitan,
+  #mobile-manajemen-kandang,
+  #mobile-manajemen-pengelolaan,
+  #mobile-manajemen-forum-sosial,
+  #mobile-manajemen-integrasi-iot {
+    display: none;
   }
 }
