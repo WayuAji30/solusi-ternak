@@ -404,9 +404,15 @@ body {
     width: 300px;
   }
 
+  #prev,
+  #next {
+    border: 2px solid var(--hijauMuda);
+    padding: 0px 8px 4px 8px;
+  }
+
   /* FITUR PAGE */
   .page-fitur {
-    margin-top: 100px;
+    margin-top: 68px;
   }
 
   .col-lg-9 .card img {
