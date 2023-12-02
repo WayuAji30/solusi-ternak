@@ -55,10 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     switch (currentId) {
       case "mobile-manajemen-penanaman":
-        setOnClickAttributes(
-          "manajemen-forum-sosial",
-          "manajemen-integrasi-iot"
-        );
+        setOnClickAttributes("manajemen-integrasi-iot", "manajemen-pembibitan");
         break;
       case "mobile-manajemen-pembibitan":
         setOnClickAttributes("manajemen-penanaman", "manajemen-kandang");
