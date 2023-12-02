@@ -55,7 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     switch (currentId) {
       case "mobile-manajemen-penanaman":
-        setOnClickAttributes("manajemen-integrasi-iot", "manajemen-pembibitan");
+        setOnClickAttributes(
+          "manajemen-forum-sosial",
+          "manajemen-integrasi-iot"
+        );
         break;
       case "mobile-manajemen-pembibitan":
         setOnClickAttributes("manajemen-penanaman", "manajemen-kandang");
@@ -64,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setOnClickAttributes("manajemen-pembibitan", "manajemen-pengelolaan");
         break;
       case "mobile-manajemen-pengelolaan":
-        setOnClickAttributes("manajemen-pembibitan", "manajemen-forum-sosial");
+        setOnClickAttributes("manajemen-kandang", "manajemen-forum-sosial");
         break;
       case "mobile-manajemen-forum-sosial":
         setOnClickAttributes(
@@ -76,6 +79,11 @@ document.addEventListener("DOMContentLoaded", function () {
         setOnClickAttributes("manajemen-forum-sosial", "manajemen-penanaman");
         break;
       default:
+        // Kasus khusus jika di awal, kembali ke paragraf terakhir
+        setOnClickAttributes(
+          "manajemen-forum-sosial",
+          "manajemen-integrasi-iot"
+        );
         break;
     }
   }

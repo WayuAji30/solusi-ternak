@@ -407,7 +407,7 @@ body {
   #prev,
   #next {
     border: 2px solid var(--hijauMuda);
-    padding: 0px 10px 5px 10px;
+    padding: 2px 10px 5px 10px;
   }
 
   /* FITUR PAGE */
