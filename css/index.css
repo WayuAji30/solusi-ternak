@@ -266,6 +266,17 @@ body {
   color: var(--hijauMuda);
 }
 
+#nav-mobile {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0px;
+  transition: top 0.3s ease;
+}
+
+#nav-mobile.show {
+  bottom: -60px;
+}
+
 @media (max-width: 991px) {
   #link {
     color: black;
@@ -465,9 +476,5 @@ body {
   #mobile-manajemen-forum-sosial,
   #mobile-manajemen-integrasi-iot {
     display: none;
-  }
-
-  #nav-mobile {
-    transition: transform 0.3s ease-in-out;
   }
 }
