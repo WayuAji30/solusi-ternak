@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const paragraphs = [
-    "mobile-manajemen-penanaman",
-    "mobile-manajemen-pembibitan",
-    "mobile-manajemen-kandang",
-    "mobile-manajemen-pengelolaan",
-    "mobile-manajemen-forum-sosial",
-    "mobile-manajemen-integrasi-iot",
+    "manajemen-penanaman",
+    "manajemen-pembibitan",
+    "manajemen-kandang",
+    "manajemen-pengelolaan",
+    "manajemen-forum-sosial",
+    "manajemen-integrasi-iot",
   ];
 
   let currentParagraphIndex = 0; // Set default to 'mobile-manajemen-penanaman'
