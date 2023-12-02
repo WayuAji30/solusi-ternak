@@ -49,37 +49,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Define a function to set onclick attributes
     const setOnClickAttributes = (prevId, nextId) => {
-      prevButton.setAttribute("onclick", `showContent('${prevId}')`);
-      nextButton.setAttribute("onclick", `showContent('${nextId}')`);
+      prevButton.setAttribute("onclick", showContent("${prevId}"));
+      nextButton.setAttribute("onclick", showContent("${nextId}"));
     };
 
     switch (currentId) {
       case "mobile-manajemen-penanaman":
-        setOnClickAttributes("manajemen-integrasi-iot", "manajemen-pembibitan");
+        setOnClickAttributes(
+          "mobile-manajemen-integrasi-iot",
+          "mobile-manajemen-pembibitan"
+        );
         break;
       case "mobile-manajemen-pembibitan":
-        setOnClickAttributes("manajemen-penanaman", "manajemen-kandang");
+        setOnClickAttributes(
+          "mobile-manajemen-penanaman",
+          "mobile-manajemen-kandang"
+        );
         break;
       case "mobile-manajemen-kandang":
-        setOnClickAttributes("manajemen-pembibitan", "manajemen-pengelolaan");
+        setOnClickAttributes(
+          "mobile-manajemen-pembibitan",
+          "mobile-manajemen-pengelolaan"
+        );
         break;
       case "mobile-manajemen-pengelolaan":
-        setOnClickAttributes("manajemen-kandang", "manajemen-forum-sosial");
+        setOnClickAttributes(
+          "mobile-manajemen-kandang",
+          "mobile-manajemen-forum-sosial"
+        );
         break;
       case "mobile-manajemen-forum-sosial":
         setOnClickAttributes(
-          "manajemen-pengelolaan",
-          "manajemen-integrasi-iot"
+          "mobile-manajemen-pengelolaan",
+          "mobile-manajemen-integrasi-iot"
         );
         break;
       case "mobile-manajemen-integrasi-iot":
-        setOnClickAttributes("manajemen-forum-sosial", "manajemen-penanaman");
+        setOnClickAttributes(
+          "mobile-manajemen-forum-sosial",
+          "mobile-manajemen-penanaman"
+        );
         break;
       default:
         // Kasus khusus jika di awal, kembali ke paragraf terakhir
         setOnClickAttributes(
-          "manajemen-forum-sosial",
-          "manajemen-integrasi-iot"
+          "mobile-manajemen-forum-sosial",
+          "mobile-manajemen-integrasi-iot"
         );
         break;
     }
