@@ -1,10 +1,16 @@
-var prevScrollpos = window.pageYOffset;
+let prevScrollPos = window.pageYOffset;
+const navMobile = document.getElementById("nav-mobile");
+
 window.onscroll = function () {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("nav-mobile").classList.remove("show");
+  const currentScrollPos = window.pageYOffset;
+
+  if (prevScrollPos > currentScrollPos) {
+    // Scroll up
+    navMobile.style.transform = "translateY(0)";
   } else {
-    document.getElementById("nav-mobile").classList.add("show");
+    // Scroll down
+    navMobile.style.transform = "translateY(-100%)";
   }
-  prevScrollpos = currentScrollPos;
+
+  prevScrollPos = currentScrollPos;
 };
